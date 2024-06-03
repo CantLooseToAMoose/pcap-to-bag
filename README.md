@@ -1,7 +1,7 @@
 # Ouster pcap to rosbag tool
-This tool converts Ouster pcaps to rosbags containg only the packets in the `/os_node/lidar_packets` and `/os_node/imu_packets` topics.
+This tool converts Ouster pcaps to rosbags containg only the packets in the `/ouster/lidar_packets` and `/ouster/imu_packets` topics.
 
-If you would like `PointCloud2` msgs you will need to run the resulting bagfile through the `ouster_ros` node and record the `/os_cloud_node/points` topic.
+If you would like `PointCloud2` msgs you will need to run the resulting bagfile through the `ouster_ros` node and record the `/ouster/points` topic.
 
 ## Requirements
 
